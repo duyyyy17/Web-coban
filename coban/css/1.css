@@ -1,0 +1,31 @@
+body {
+  background-color: wheat;
+  font-family: Verdana;
+  font-size: 100%;
+}
+h1 {
+  color: tomato;
+  font-family: Cambria;
+  font-size: 140%;
+}
+p {
+  color: yellow;
+  font-family: Times; /*kiểu chữ*/
+  font-style: 120%;
+  border: 2px solid tomato; /* tạo viền xung quanh dòng chữ*/
+  padding: 10px; /* tạo khoảng cách từ chữ tới khung*/
+  margin: 40px; /*khoảng cách giữa 2 lề đường viền*/
+}
+a:link,
+a:visited {
+  background-color: f44336;
+  color: green;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover,
+a:active {
+  background-color: red;
+}
