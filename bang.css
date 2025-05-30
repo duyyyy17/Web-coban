@@ -1,0 +1,34 @@
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse; /*đường viền bảng thu gọn */
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  /* border-style: hidden; kiểu đường viền bảng*/
+}
+th {
+  background-color: red;
+}
+td {
+  background-color: aquamarine;
+}
+th,
+td {
+  padding: 15px;
+}
+/* 
+td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+} */
+/* 
+td:nth-child(odd) {
+  background-color: rgb(230, 239, 238);
+} */
+/* tr:nth-child(even) {
+  background-color: #d6eeee;
+} */
+tr {
+  border-bottom: px solid gray;
+}

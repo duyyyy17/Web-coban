@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+#wraper {
+  max-width: 960px;
+  margin: 0px auto;
+}
+#header {
+  background-color: blue;
+  color: aliceblue;
+  padding: 20px;
+  text-align: center;
+}
+h3 {
+  text-align: left;
+}
+.menu {
+  text-align: left;
+  display: flex;
+  margin: auto;
+}
+#main-content {
+  display: flex;
+  min-height: 550px;
+}
+#content {
+  flex-basis: 70%;
+}
+
+#sidebar {
+  flex-basis: 30%;
+}
+
+#footer {
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+}
