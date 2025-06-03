@@ -1,0 +1,136 @@
+.background {
+  text-align: center;
+  max-width: 1300px;
+  margin: 0px auto 30px;
+}
+.header {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-b li a {
+  display: block;
+  text-decoration: none;
+  padding: 8px 8px;
+  color: gray;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Georgia", serif;
+}
+
+p {
+  color: gray;
+  font-size: 30px;
+}
+input {
+  padding: 15px 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 25px;
+}
+.blog {
+  justify-content: center;
+  display: flex;
+  gap: 8%;
+  margin-bottom: 200px;
+}
+h2 {
+  font-size: 34px;
+}
+
+.blog-a,
+.blog-b {
+  flex-basis: 40%;
+  text-align: left;
+}
+.img-1,
+.img-2 {
+  width: 600px;
+  height: 300px;
+}
+button {
+  font-size: 25px;
+  background-color: #30336b;
+  color: white;
+  border-radius: 10px;
+  /* padding: 10px 15px; */
+  height: 50px;
+  width: 150px;
+  margin-bottom: 100px;
+}
+.author-1,
+.author-2 {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+}
+.pageintion {
+  justify-content: center;
+  font-size: 35px;
+  display: flex;
+  text-decoration: none;
+  padding: 15px;
+}
+.pageintion li a {
+  /* display: block; */
+  display: block;
+  text-decoration: none;
+  margin: 0 35px;
+  color: black;
+}
+.pageintion li:hover {
+  display: block;
+  background-color: rgb(67, 67, 220);
+  border-radius: 50%;
+}
+.widgets {
+  display: flex;
+  text-align: left;
+  gap: 10%;
+}
+
+.widgets-mail {
+  background-color: #30336b;
+  text-align: center;
+  flex-basis: 70%;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.widgets-tt {
+  flex-basis: 40%;
+}
+b {
+  font-size: 28px;
+}
+.widgets-mail p {
+  color: white;
+}
+.widgets-tt p {
+  color: black;
+}
+
+.Rectangle {
+  margin: 0px;
+  background-color: #dcdde1;
+  text-align: center;
+}
+.Copyright p {
+  padding: 20px;
+  color: black;
+}
+.footer ul {
+  justify-content: center;
+  display: flex;
+}
+.footer li a {
+  font-size: 28px;
+  color: gray;
+  text-decoration: none;
+  display: block;
+  margin: 0 20px;
+}

@@ -1,0 +1,121 @@
+body {
+  text-align: center;
+  max-width: 1800px;
+  margin: 0px auto 30px;
+  font-size: 30px;
+}
+
+.header {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-b li a {
+  display: block;
+  text-decoration: none;
+  padding: 8px 8px;
+  color: gray;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Georgia", serif;
+}
+
+.Contact {
+  margin: 10px 100px;
+}
+.container {
+  text-align: left;
+}
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.author-1 {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+}
+.content {
+  text-align: left;
+}
+.in-this-article {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  font-family: Georgia, serif;
+}
+.in-this-article li a {
+  color: black;
+}
+.img3,
+.img4 {
+  width: 600px;
+  height: 300px;
+}
+.widgets {
+  display: flex;
+  text-align: left;
+  gap: 10%;
+}
+
+.widgets-mail {
+  background-color: #30336b;
+  text-align: center;
+  flex-basis: 70%;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.widgets-tt {
+  flex-basis: 40%;
+}
+b {
+  font-size: 28px;
+}
+.widgets-mail p {
+  color: white;
+}
+.widgets-tt p {
+  color: black;
+}
+.Rectangle {
+  margin: 0px;
+  background-color: #dcdde1;
+  text-align: center;
+}
+.Copyright p {
+  padding: 20px;
+  color: black;
+}
+.footer ul {
+  justify-content: center;
+  display: flex;
+}
+.footer li a {
+  font-size: 28px;
+  color: gray;
+  text-decoration: none;
+  display: block;
+  margin: 0 20px;
+}
+.name-tag li {
+  text-align: left;
+}
+.name-tag img {
+  height: auto;
+  width: 200px;
+  border-radius: 60%;
+}
+.name-tag {
+  background-color: #f9f9f9;
+}
+.Email {
+  font-size: 70%;
+}
