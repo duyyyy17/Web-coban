@@ -1,0 +1,41 @@
+.mi p {
+  color: #434343;
+  font-size: 16px;
+}
+.mi h1 {
+  font-size: 24px;
+  font-family: "Merriweather", serif;
+}
+.time {
+  color: #515151;
+  font-size: 14px;
+}
+.img-id {
+  display: flex;
+  width: 174px;
+  height: 42px;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+}
+.name {
+  margin-left: 10px;
+}
+.img-id img {
+  width: 42px;
+  height: 42px;
+  border-radius: 378px;
+}
+button {
+  background-color: #283a61;
+  border-radius: 3px;
+  color: #ffffffd9;
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}

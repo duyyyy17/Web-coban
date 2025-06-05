@@ -1,0 +1,180 @@
+body {
+  margin: 0px auto 30px;
+  text-align: center;
+}
+header {
+  max-width: 1100px;
+  margin: 0px auto 30px;
+  text-align: center;
+}
+.hd {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  height: 30px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.hd__name {
+  color: #000638;
+  font-size: 24px;
+  font-family: "Merriweather", serif;
+}
+.hd__nva li a {
+  display: block;
+  text-decoration: none;
+  color: #605c59;
+  font-size: 18px;
+  font-family: "roboto", sans-serif;
+}
+
+.introduce {
+  text-align: center;
+}
+.introduce h1 {
+  font-size: 48px;
+  font-family: "Merriweather", sans;
+  color: #000638;
+}
+.introduce p {
+  color: #605c59;
+  font-size: 20px;
+  font-family: "roboto", sans-serif;
+}
+
+.search__bar {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 58;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid #dddddd;
+  margin-bottom: 30px;
+  position: relative;
+}
+.search-ip {
+  border-style: none;
+  width: 100%;
+  height: 100%;
+  color: #5f5f5f;
+  border-radius: 0;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  right: 0;
+  color: #5f5f5f;
+}
+main {
+  max-width: 1100px;
+
+  margin: 0px auto 30px;
+  text-align: center;
+}
+.mi__blog-sea,
+.mi__blog-chicken {
+  width: 510px;
+  height: 603px;
+  text-align: left;
+}
+.img-sea,
+.img-chicken {
+  width: 100%;
+  height: 278px;
+  margin-bottom: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.mi {
+  display: flex;
+  justify-content: space-between;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+}
+.page-ul li a {
+  display: block;
+  text-decoration: none;
+  width: 42px;
+  height: 42px;
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #605c59;
+  align-content: center;
+}
+.page-ul li :hover {
+  background-color: #000638;
+  color: aliceblue;
+  border-radius: 30px;
+}
+
+.widgets {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+  margin-top: 260px;
+  width: 1182px;
+  height: 376px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mail p {
+  color: #dfe6ff;
+  font-size: 18px;
+  font-family: Roboto;
+  text-align: center;
+}
+.mail {
+  padding: 40px;
+}
+.mail h2 {
+  color: white;
+  font-size: 24px;
+  font-family: "Merriweather";
+  text-align: center;
+}
+.inp-email {
+  border-radius: 5px;
+  font-family: Roboto;
+  margin-bottom: 15px;
+  width: 288px;
+  height: 52px;
+  font-size: 18px;
+}
+
+.btn-sign {
+  text-align: left;
+}
+
+.widgets-mail {
+  text-align: left;
+  background-color: #283a61;
+  width: 382;
+  height: 372;
+  border-radius: 5px;
+}
+.widgets-posts {
+  text-align: left;
+  font-size: 14px;
+  font-family: Roboto;
+}
+footer {
+  background-color: #f5f5f5;
+  font-size: 14px;
+  width: 1440;
+  height: 142;
+  padding: 20px 0 20px 0;
+}
+.about li a {
+  display: block;
+  color: #544b44;
+  font-family: Merriweather;
+  text-decoration: none;
+}
+.copyright {
+  color: #3e3e3e;
+}
