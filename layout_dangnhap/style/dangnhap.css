@@ -1,0 +1,83 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #c9d6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.form-container-signin {
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+  display: flex;
+  justify-content: space-between;
+}
+.container,
+.hello {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  flex-basis: 50%;
+}
+.icon {
+  margin: 36px 0 24px 0;
+}
+.icon a {
+  margin: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+}
+.icon a:hover {
+  background-color: aqua;
+}
+.container input {
+  bottom: 0;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 13px;
+  outline: none;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  border: none;
+}
+.container p a {
+  font-size: 13px;
+  color: gray;
+  text-decoration: none;
+}
+.container p {
+  color: gray;
+}
+.hello {
+  background-color: #574b90;
+  border-radius: 150px 0 0 150px;
+  color: #fff;
+}
+button {
+  margin-top: 26px;
+  padding: 8px 4px;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 35%;
+  background-color: #574b90;
+  color: #fff;
+}
