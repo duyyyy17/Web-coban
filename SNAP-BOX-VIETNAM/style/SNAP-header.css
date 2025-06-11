@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  gap: 40px;
+}
+.button button {
+  border: none;
+  background-color: white;
+  margin: 20px;
+  font-size: 16px;
+}
+.button button:hover {
+  color: rgb(3, 167, 167);
+}
+/* .button button::after {
+  content: "";
+  position: absolute;
+  left: 0;  
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease-in-out;
+} */
