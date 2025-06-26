@@ -1,12 +1,6 @@
 import PropTypes from "prop-types";
-
 import logo from "./assets/logo-tuhoc.png";
-
-import pic1 from "./assets/pic1.png";
-import pic2 from "./assets/pic2.png";
-import pic3 from "./assets/pic3.png";
-import pic4 from "./assets/pic4.png";
-
+import { myData } from "../data";
 function Header() {
   return (
     <>
@@ -22,12 +16,12 @@ function Header() {
   );
 }
 
-function MainContent(props) {
+function MainContent(image, title, desc) {
   return (
     <li>
-      <img src={props.image} alt={props.title} />
-      <h2>{props.title}</h2>
-      <p>{props.desc}</p>``
+      <img src={image} alt={title} />
+      <h2>{title}</h2>
+      <p>{desc}</p>
     </li>
   );
 }
@@ -46,26 +40,11 @@ function App() {
         <section id="core-concepts">
           <h2>Khái niệm chính trong React</h2>
           <ul>
-            <MainContent
-              image={pic1}
-              title="Components"
-              desc="Khối xây dựng giao diện cơ bản - kết hợp nhiều thành phần để tạo nên ứng dụng."
-            />
-            <MainContent
-              image={pic2}
-              title="JSX"
-              desc="Kết hợp HTML và JavaScript để tạo giao diện động và mạnh mẽ."
-            />
-            <MainContent
-              image={pic3}
-              title="Props"
-              desc="Truyền dữ liệu vào thành phần để làm nó linh hoạt và tái sử dụng."
-            />
-            <MainContent
-              image={pic4}
-              title="State"
-              desc="Dữ liệu được React quản lý, khi thay đổi sẽ tự động làm mới giao diện."
-            />
+            <MainContent {...myData[0]} />
+            <MainContent {...myData[1]} />
+            <MainContent {...myData[2]} />
+            <MainContent {...myData[3]} />
+            <MainContent {...myData[4]} />
           </ul>
         </section>
       </main>
